@@ -1,0 +1,77 @@
+.right-box-content {
+    float: left;
+    position: relative;
+
+    background: #e6e6e6de ;
+    border: 1px solid #8684899e;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color:#666;
+    width:  100%;
+    height: auto;
+}
+.right-box {
+    margin: 20px 0px;
+}
+
+.slim-scroll {
+    overflow: auto !important;
+}
+.list-history{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 300px;
+    overflow-y: scroll;
+}
+.list-memeber-online{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 300px;
+    overflow-y: scroll;
+    width: 550px;
+}
+.list-RevenueOnDay{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 300px;
+    width: 550px;
+}
+li{
+    list-style: none;
+}
+
+.list-item{
+    clear: both;
+    padding:5px;
+
+    height: auto;
+    border-bottom: 1px solid #33333324;
+
+}
+.title_crollView{
+    font-size: 15px;
+    display: -webkit-box;
+    display: flex;
+    align-items: center;
+
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+    pointer-events: none;
+    color: #666;
+}
+.right-box-content:hover{
+
+    box-shadow:   0px 0px 4px 2px #8ece8e;
+}
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="persistence-data">
+        <class>com.hieuminh.entity.UserEntity</class>
+        <class>com.hieuminh.entity.RoleEntity</class>
+        <class>com.hieuminh.entity.CommentEntity</class>
+        <class>com.hieuminh.entity.DetailSaleEntity</class>
+        <class>com.hieuminh.entity.ImageProductEntity</class>
+        <class>com.hieuminh.entity.LoginEntity</class>
+        <class>com.hieuminh.entity.ProductEntity</class>
+        <class>com.hieuminh.entity.BillEntity</class>
+        <class>com.hieuminh.entity.SaleEntity</class>
+        <class>com.hieuminh.entity.TypeEntity</class>
+        <class>com.hieuminh.entity.MyHistoryEntity</class>
+        <class>com.hieuminh.entity.FeedBackEntity</class>
+        <class>com.hieuminh.entity.TransporterEntity</class>
+        <class>com.hieuminh.entity.LocationEntity</class>
+        <class>com.hieuminh.entity.DetailBillEntity</class>
+        <class>com.hieuminh.entity.StoreEntity</class>
+
+    </persistence-unit>
+</persistence>
+

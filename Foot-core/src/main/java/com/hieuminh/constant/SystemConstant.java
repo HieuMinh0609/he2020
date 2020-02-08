@@ -1,0 +1,42 @@
+package com.hieuminh.constant;
+
+public class SystemConstant {
+	public static final String MODEL = "model";
+	public static final String ITEMS = "items";
+	public static final String NUMBER_PAGE = "page";
+	public static final String BASE_DIR = "/fileupload";
+	public static final String BASE_DIR_NOT_SERVER = "D:/fileupload";
+	public static final String HOME_PAGE = "/home";
+	public static final String ROLE_USER = "USER";
+	public static final String ROLE_MANAGER = "ADMIN";
+	public static final String ADMIN_HOME_PAGE = "/admin/home";
+	public static final String REDIRECT_LOGIN= "/login";
+	public static final String PRODUCT_PROFILE = "/product";
+	public static final String PRODUCT_EXCEL = "/Excel";
+	public static final String BUILDING_LIST = "/admin/building/list";
+	public static final String MAP_TYPES = "mapTypes";
+	public static final String CHECKED = "checked";
+	public static final String ACTION_REMOVE = "remove";
+	public static final String ACTION_INSERT = "insert";
+	public static final String ADMIN_BUILDING_ASSIGNMENT = "/admin/building/assignment";
+	public static final String TO_DO = "to_do";
+	public static final String IN_PROGRESS = "in_progress";
+	public static final String INSERT_SUCCESS = "insert_success";
+	public static final String EXPORT_PDF = "export_success";
+	public static final String UPDATE_SUCCESS = "update_success";
+	public static final String DELETE_SUCCESS = "delete_success";
+	public static final String CHANGE_PASSWORD_SUCCESS = "change_password_success";
+	public static final String CHANGE_PASSWORD_FAIL = "change_password_fail";
+	public static final String RESET_PASSWORD_SUCCESS = "reset_password_success";
+	public static final String ERROR_SYSTEM = "error_system";
+	public static final String ALERT = "alert";
+	public static final String MESSAGE_RESPONSE = "messageResponse";
+	public static final String CAREATE_USER_SUCCESS = "create_success";
+	public static final String EMAIL_PHONE_EXIST = "email_phone_exist";
+	public static final String BILL_OLD_TRANS = "Hóa đơn đã chuyển";
+	public static final String BILL_PROCESS_TRANS = "Hóa đơn đang chuyển";
+	public static final String PRODUCT_PROCESS_TRANS = "Sản phẩm đang chuyển";
+	public static final String PRODUCT_OLD_TRANS = "Sản phẩm đã chuyển";
+	public static final String MONEY_OLD_TRANS = "Số tiền đã thu";
+	public static final String MONEY_PROCESS_TRANS = "Số tiền chưa thu";
+}
